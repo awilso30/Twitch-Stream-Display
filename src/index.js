@@ -10,7 +10,7 @@ window.onload = function () {
 
   function statusAjax () {
     $.ajax({
-      url: "https://cors-anywhere.herokuapp.com/https://wind-bow.gomix.me/twitch-api/channels/" + streamers[i] + "?callback=?",
+      url: "https://wind-bow.gomix.me/twitch-api/channels/" + streamers[i] + "?callback=?",
       dataType: "jsonp",
       data: {
         format: "jsonp"
@@ -36,7 +36,7 @@ window.onload = function () {
   
   function streamAjax () {
     $.ajax({
-      url: "https://cors-anywhere.herokuapp.com/https://wind-bow.gomix.me/twitch-api/streams/" + streamers[i] + "?callback=?",
+      url: "https://wind-bow.gomix.me/twitch-api/streams/" + streamers[i] + "?callback=?",
       dataType: "jsonp",
       data: {
         format: "json"
