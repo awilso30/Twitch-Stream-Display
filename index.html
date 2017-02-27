@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+	<title>Twitch Stream Display</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="src/index.js"></script>  	
+</head>
+
+<body>
+
+<div class="main-container">
+
+  <div class="menu-container">
+    <input type='button' id='all' value='All'>
+    <input type='button' id='online' value='Online'>
+    <input type='button' id='offline' value='Offline'>
+        <input type='button' id='unavailable' value='Unavailable'>
+  </div>
+
+  <div class="display-container">  
+    <div id="online-container">    
+    </div>
+    <div id="offline-container">    
+    </div>
+    <div id="unavailable-container">    
+    </div>
+  </div>
+
+</div>
+
+</body>
+
+</html>
